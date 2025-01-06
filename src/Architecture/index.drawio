@@ -1,0 +1,129 @@
+<mxfile host="65bd71144e">
+    <diagram id="vl6QD9yPIaA1sra-vb3r" name="High level">
+        <mxGraphModel dx="1199" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="140" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="160" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60" y="200" as="sourcePoint"/>
+                        <mxPoint x="120" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Raffle End&lt;br&gt;User" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fillColor=none;dashed=1;dashPattern=1 4;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="170" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="30" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="140" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Raffle Admin&lt;br&gt;User" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fillColor=none;dashed=1;dashPattern=1 4;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="170" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="140" as="sourcePoint"/>
+                        <mxPoint x="210" y="90" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="160" y="70"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="9" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="120" as="sourcePoint"/>
+                        <mxPoint x="440" y="70" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="615" y="83"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="rzR2765PFbmCDa1gQDcF" name="End User">
+        <mxGraphModel dx="959" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="-O0am73hiBkffab8F30V-3" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="141" as="sourcePoint"/>
+                        <mxPoint x="370" y="141" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-1" value="&lt;h1&gt;End User App&lt;/h1&gt;&lt;p&gt;- The user should be able to go into Raffle.&lt;br&gt;- Inside the Raffle the user could buy one or more tickets&lt;br&gt;- The user should have a raffles tab/page &lt;br&gt;-- Inside this section each raffle be able to check the upcoming lottery and/or the winner(s).&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="70" width="190" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="-O0am73hiBkffab8F30V-2" target="-O0am73hiBkffab8F30V-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370.5" y="67" width="99.5" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-4" value="auth gmail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="390.25" y="93.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-14" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="-O0am73hiBkffab8F30V-9" target="-O0am73hiBkffab8F30V-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-9" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="67" width="180" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-11" value="Raffle Code to be subscribe into it" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="569.75" y="93.5" width="140.25" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O0am73hiBkffab8F30V-13" target="-O0am73hiBkffab8F30V-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-13" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="230" width="180" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-15" value="Raffle Codes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="609.88" y="256.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="-O0am73hiBkffab8F30V-16" target="-O0am73hiBkffab8F30V-19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-16" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="549.88" y="370" width="180" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-18" value="Payment transaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="396.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-23" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="-O0am73hiBkffab8F30V-19" target="-O0am73hiBkffab8F30V-22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-19" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="549.88" y="533" width="180" height="83" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-21" value="My Raffles List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="609.88" y="559.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-26" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="-O0am73hiBkffab8F30V-22" target="-O0am73hiBkffab8F30V-25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-22" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="319.88" y="544.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-24" value="Playing tickets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="349.88" y="559.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-25" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="119.88" y="544.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="-O0am73hiBkffab8F30V-27" value="Winner section" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="149.88" y="559.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
